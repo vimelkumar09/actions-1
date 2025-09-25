@@ -13,4 +13,4 @@ jobs:
       run: ls
 
     - name: Read file in repo
-      run: cat Sample-Dockerfile
+      run: cat "Sample-Dockerfile"
