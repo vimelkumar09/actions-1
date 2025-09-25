@@ -4,13 +4,13 @@ on: push
 
 jobs:
   first_job:
-   runs-on: ubuntu-latest
-   steps:
-    - name: welcome message
-      run: echo "myfirst github actions"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Welcome message
+        run: echo "My first GitHub Actions"
 
-    - name: list files in repo
-      run: ls
+      - name: List files in repo
+        run: ls
 
-    - name: Read file in repo
-      run: cat "Sample-Dockerfile"
+      - name: Read file in repo
+        run: cat Sample-Dockerfile
