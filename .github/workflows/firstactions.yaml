@@ -12,5 +12,5 @@ jobs:
       - name: List files in repo
         run: ls
 
-      - name: Read file in repo
-        run: cat Sample-Dockerfile
+      - name: Read file 
+        run: README.md
